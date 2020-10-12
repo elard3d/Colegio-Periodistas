@@ -1,0 +1,48 @@
+.linkMostrar{
+	color: blue;
+}
+
+.linkMostrar:hover{
+	color:aqua;
+}
+
+.headerTitulo{
+    background-color: #ddd;
+    border-radius: 1em;
+	padding: 10px;
+	text-align: center;
+}
+
+.palabras{
+	border-radius: 10px;
+	background-color: #AF1A1A;
+	font-weight: 500;
+	font-size: 18px;
+	display: flex;
+	border-radius: 15px;
+	padding: 12px;
+
+}
+
+.texto, .foto{
+	padding: 15px;
+}
+
+.texto{
+	margin: auto;
+	width: 75%;
+	text-align: justify;
+	color: aliceblue;
+}
+
+.foto{
+	margin: auto;
+	width: 20%;
+}
+
+.fotografia{
+	border-radius: 2em;
+	border-style: ridge;
+	display:block;
+	margin:auto;
+}

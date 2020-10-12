@@ -1,0 +1,86 @@
+.directorio{
+	border-radius: 10px;
+	background-color: AF1A1A;
+	font-weight: bolder;
+	font-size: 18px;
+	align-content: center;
+}
+
+.datos{
+	display: flex;
+	flex-direction: row;
+}
+
+.nombres, .correos{
+	width: 50%;
+	padding: 5px;
+
+	border-radius: 15px;
+}
+
+.info{
+
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.cargo{
+	font-size: 17px;
+	padding: 10px;
+}
+
+@media screen and (max-width: 1180px){
+
+	h1{
+		font-size: 32px
+	}
+
+	.cargo{
+		padding: 8px;
+		font-size: 11px;
+
+	}
+
+	.info{
+		padding: 1.5px;
+		font-size: 15px;
+	}
+
+}
+
+/* celular*/
+@media screen and (max-width: 500px){
+
+	h1{
+		font-size: 24px;
+	}
+
+	.directorio{
+		padding: 10px;
+	}
+
+	.datos{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nombres, .correos{
+	width: 100%;
+	padding: 5px;
+	border-radius: 15px;
+	}
+
+	.cargo{
+		padding: 8px;
+		font-size: 11px;
+	}
+
+	.info{
+		padding: 1.5px;
+		font-size: 13px;
+	}
+
+
+
+}
